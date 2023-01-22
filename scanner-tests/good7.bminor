@@ -1,0 +1,10 @@
+/* //\n\n\n// */
+while(true) {
+    c: char = '\n';
+    d: char = 'i';
+    b: char = '\h';
+
+    print c;
+    print d;
+}
+

@@ -1,0 +1,20 @@
+// all valid function types
+s: function string () = {
+    return true;
+}
+
+i: function integer () = {
+    return true;
+}
+
+c: function integer () = {
+    return true;
+}
+
+b: function boolean () = {
+    return true;
+}
+
+v: function void () = {
+    return true;
+}

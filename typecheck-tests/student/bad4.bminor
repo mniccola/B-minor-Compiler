@@ -1,0 +1,6 @@
+main: function integer () = {
+    x: string = "hello";
+    x++;
+    x--;
+    return x++++ + 4;
+}

@@ -1,0 +1,8 @@
+//print sequence
+main: function void () = {
+    a: string = "is";
+    c: string = "print";
+    for(i = 0; i < 10; i++) {
+        print "this", a, "a", c;
+    }
+}

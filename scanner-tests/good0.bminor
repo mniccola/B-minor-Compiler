@@ -1,0 +1,6 @@
+//Assign variables to every type
+
+a: integer = 57;
+y: boolean = false;
+c: char = ';';
+d: array [17] integer;

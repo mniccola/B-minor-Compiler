@@ -1,0 +1,8 @@
+// print from globals
+x: integer = 10;
+c: char = 'I';
+s: string = "see";
+
+main: function void () = {
+    print x, c, s, "\n";
+}

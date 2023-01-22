@@ -1,0 +1,15 @@
+//funcCalls and expressions
+yes: function boolean() = {
+    return true;
+}
+
+no: function string () = {
+    return "no";
+}
+
+main: function void () = {
+    if(yes())
+        print "yes";
+    else 
+        print no();
+}

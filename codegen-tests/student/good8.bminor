@@ -1,0 +1,11 @@
+// doing some basic math
+// actual value is ~8.083 so expected return is 8
+main: function integer () = {
+    x: integer = 6;
+    y: integer = 13;
+
+    a: integer = (x + (y * 7)) / 12;
+
+    print a, "\n";
+    return a;
+}

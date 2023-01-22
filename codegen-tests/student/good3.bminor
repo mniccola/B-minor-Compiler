@@ -1,0 +1,6 @@
+// returning chars from funcs
+// return code should be 99
+main: function char () = {
+
+    return 'c';
+}

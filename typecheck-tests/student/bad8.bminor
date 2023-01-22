@@ -1,0 +1,13 @@
+/* Test array of array assignments. */
+
+x: array [5] string;
+
+main: function void () =
+{
+	x[1] = 2;
+	count: integer;
+	for(count = 0; count < 5; count++)
+	{
+        x[count] = count;
+	} 	
+}

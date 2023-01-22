@@ -1,0 +1,6 @@
+// array initializer with out length
+
+main: function integer () = {
+    a: array [] integer;
+    return 1;
+}

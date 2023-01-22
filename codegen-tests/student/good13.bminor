@@ -1,0 +1,10 @@
+// if statements (nested logic operators)
+main: function integer () = {
+    if((10 > 4) || (5 < 12) && ((13 * 8) > 200) || ((9 + 7) < 20)) {
+        print "true\n";
+    } else {
+        print "false\n";
+    }
+
+    return 0;
+}

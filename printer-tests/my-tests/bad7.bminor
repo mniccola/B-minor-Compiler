@@ -1,0 +1,5 @@
+array of type void
+main: function integer () = {
+    a: array [] void;
+    return 1;
+}

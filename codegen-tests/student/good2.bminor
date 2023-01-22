@@ -1,0 +1,6 @@
+// returning string from a function
+// should return the address of the string literal
+main: function string () = {
+
+    return "hello";
+}

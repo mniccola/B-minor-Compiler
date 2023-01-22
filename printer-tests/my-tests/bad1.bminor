@@ -1,0 +1,4 @@
+// cant declare function as an auto
+func1: function integer ();
+func2: function boolean ();
+func3: function auto ();

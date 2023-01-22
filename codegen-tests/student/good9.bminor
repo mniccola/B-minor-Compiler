@@ -1,0 +1,18 @@
+// evaluate func calls in expressions
+// with globals too
+x: integer = 5;
+
+func: function integer () = {
+    return 1 + x;
+}
+
+main: function integer () = {
+    
+    a: integer = func() * 12;
+    b: integer = 22;
+    a = a - b;
+    
+    print a, "\n";
+    // expect return 50;
+    return a;
+}

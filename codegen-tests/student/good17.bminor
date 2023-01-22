@@ -1,0 +1,12 @@
+// Sum of numbers from 0 to n
+gaussSum: function integer (n: integer) = {
+
+    return (n*(n + 1)) / 2;
+}
+
+main: function integer () = {
+    a: integer = 100;
+    print "the sum of numbers up to ", a, " is ", gaussSum(a), "\n";
+
+    return 0;
+}

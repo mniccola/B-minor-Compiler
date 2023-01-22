@@ -1,0 +1,8 @@
+main: function integer() ={
+    a: integer = 5;
+    b: string = "5";
+
+    c: boolean = a + b;
+
+    return c;
+}

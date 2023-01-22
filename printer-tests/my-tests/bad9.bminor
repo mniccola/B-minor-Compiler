@@ -1,0 +1,5 @@
+// array initializer empty
+main: function integer () = {
+    a: array [5] integer = {};
+    return 1;
+}

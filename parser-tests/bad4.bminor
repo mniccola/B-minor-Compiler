@@ -1,0 +1,6 @@
+// incorrect spacing
+main: function integer () = {
+    x: integer = 5;
+    x++-- 5;    // x++ - -5 is allowed
+    return x;
+}

@@ -1,0 +1,11 @@
+
+main: function void () = {
+    a: integer = 5;
+    b: integer = 6;
+    c: integer = 7;
+    if(a >= b) {
+        for(i = b; i < a; i++)
+            print i, "\n";
+    }
+    return a;
+}

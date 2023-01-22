@@ -1,0 +1,3 @@
+funcA: function integer ();
+funcB: function boolean ();
+funcC: function array ();

@@ -1,0 +1,9 @@
+// printing local variables
+main: function void () = {
+    c: char = 'h';
+    e: integer = 3;
+    x: integer = 1;
+    o: integer = 0;
+    print c, e, x, x, o, "\n";
+
+}

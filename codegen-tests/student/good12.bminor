@@ -1,0 +1,20 @@
+// if statements (nested logic operators)
+main: function integer () = {
+    if(true || false && false || true) {
+        print "true\n";
+    } else {
+        print "false\n";
+    }
+
+    if(false && true || false && false) {
+        print "true\n";
+    } else {
+        print "false\n";
+    }
+
+    if(true) {
+        print "this if has no else\n";
+    }
+
+    return 0;
+}

@@ -1,0 +1,4 @@
+// bad function assignment
+main: function boolean () {
+    return false;
+}

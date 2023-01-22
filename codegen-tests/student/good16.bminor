@@ -1,0 +1,20 @@
+// even or odd?
+isOdd: function boolean (x: integer) = {
+    if(x % 2 == 0) {
+        return false;
+    }
+
+    return true;
+}
+
+main: function integer () = {
+    i: integer;
+    for(i = 25; i > 0; i--) {
+        if(isOdd(i)) {
+            print i, " is odd\n";
+        } else {
+            print i, " is even\n";
+        }
+    }
+
+}

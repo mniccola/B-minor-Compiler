@@ -1,0 +1,8 @@
+ // nesting for loops
+ main: function void () = {
+    s: string = "hi\n";
+    for(; ;)
+        for(;;)
+            if(true)
+                print "no";
+ }

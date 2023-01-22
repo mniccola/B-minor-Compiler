@@ -1,0 +1,9 @@
+// ternary expressions
+main: function void () = {
+    a: integer = 5;
+    b: integer = 6;
+    c: integer = 7;
+
+    a = (b > c) ? b + c : c - b;
+    return a;
+}

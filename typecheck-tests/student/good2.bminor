@@ -1,0 +1,10 @@
+// "globals"
+s: string = "this is a string\n";
+global: integer = 5;
+b: integer;
+main: function void() = {
+    b = 5;
+    if(9 == b) {
+        print s;
+    }
+}

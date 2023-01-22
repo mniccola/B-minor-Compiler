@@ -1,0 +1,13 @@
+// blocks on blocks
+main: function void () = {
+    a: integer = 1;
+    {
+       print "block 1";
+       {
+            print "block 2";
+            {
+                print "block 3";
+            }
+       }
+    }
+}

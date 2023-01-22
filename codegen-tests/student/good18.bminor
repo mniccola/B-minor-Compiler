@@ -1,0 +1,15 @@
+// find greatest common divisor of two numbers recursively
+gcd: function integer (a: integer, b: integer) = {
+    if( b == 0 ) {
+        return a;
+    }
+
+    return gcd(b, a % b);
+}
+
+main: function integer () = {
+    x: integer = 225;
+    y: integer = 90;
+
+    print "the gcd of ", x, " and ", y, " is ", gcd(x, y), "\n";
+}

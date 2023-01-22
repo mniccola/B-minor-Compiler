@@ -1,0 +1,6 @@
+hello
+/* comment buster 3000 /*
+
+print("/////"\n)**
+****/
+world

@@ -1,0 +1,7 @@
+// comment here // x
+if( a > b) {
+    // comment here // x
+    return 1;
+} else {
+    /* comment here */
+}

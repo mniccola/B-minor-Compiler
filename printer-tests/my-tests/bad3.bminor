@@ -1,0 +1,6 @@
+// statement in if()
+main: function void () = {
+    if(x:integer = 5;) {
+        return false;
+    }
+}

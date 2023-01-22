@@ -1,0 +1,7 @@
+// print expressions
+main: function integer () = {
+    a: integer = 5;
+    b: integer = 4;
+    print a, " + ", b, " = ", a + b, "\n";
+    return 0;
+}

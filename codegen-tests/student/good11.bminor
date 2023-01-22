@@ -1,0 +1,27 @@
+// func calls as arguments
+
+add: function integer (a: integer, b: integer) = {
+    return a + b;
+}
+
+sub: function integer (a: integer, b: integer) = {
+    return a - b;
+}
+
+mul: function integer (a: integer, b: integer) = {
+    return a * b;
+}
+
+
+main: function integer () = {
+    
+    x: integer = 7;
+    y: integer = 15;
+    z: integer = 2;
+
+    w: integer = mul(sub(y, add(x, z)), x); // 7 * (15 - (7 + 2))
+
+    print w, "\n";
+
+    return 0;
+}

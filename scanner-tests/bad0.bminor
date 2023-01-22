@@ -1,0 +1,6 @@
+// dollar $ign
+
+s: string = "hi"
+for( i = 0; i < 12; i++) {
+    print ${s};
+}

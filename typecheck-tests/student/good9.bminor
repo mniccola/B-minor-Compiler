@@ -1,0 +1,14 @@
+test1: function integer(a: integer, b: integer);
+
+test1: function integer(a: integer, b: integer) = {
+    return a * b;
+}
+
+main: function integer() = { 
+    x: integer = 5;
+    y: integer = 15;
+    z: integer = test1(1, 2);
+    
+    return z;
+}
+

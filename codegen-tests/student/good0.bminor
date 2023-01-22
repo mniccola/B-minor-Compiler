@@ -1,0 +1,5 @@
+// test integer returns
+main: function integer () = {
+    x: integer = 0;
+    return x;
+}

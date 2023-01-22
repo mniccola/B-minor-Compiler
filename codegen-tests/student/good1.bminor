@@ -1,0 +1,6 @@
+// test boolean returns;
+main: function boolean () = {
+    b: boolean = true;
+
+    return b;
+}

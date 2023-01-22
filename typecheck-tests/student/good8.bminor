@@ -1,0 +1,30 @@
+x: integer = 5;
+y: boolean;
+
+func1: function void();
+func2: function integer (x: integer, y: integer) = {
+    return x + y;
+}
+func3: function integer (a: integer, b: integer) = {
+    return a - b;
+}
+
+main: function integer () = {
+
+    z: integer = 4;
+    c: integer;
+    c = 3;
+    
+
+    if(func2(1, 3) > func3(2, 1)) {
+        return 1;
+    } else {
+        i: integer;
+        for(i = 10; i > 0; i--) {
+            print "hi\n";
+        }
+    }
+    
+    
+    return 0;
+}

@@ -1,0 +1,31 @@
+// all the bells and whistles
+x: integer = 5;
+y: boolean;
+
+func1: function void();
+func2: function integer (x: integer, y: integer) = {
+    return x + y;
+}
+
+main: function integer () = {
+    func3: function integer (a: integer, b: integer) = {
+        return a - b;
+    }
+
+    z: integer = 4;
+    c: integer;
+    c = 3;
+    y: auto;
+
+    if(func2(z, c) > func3(z, c)) {
+        return 1;
+    } else {
+        for(i = 10; i > 0; i--) {
+            print "hi\n";
+        }
+    }
+    
+    a: array [5] array [2] integer = {{1, 2}, {3, 4}, {5, 6}};
+    
+    return 0;
+}

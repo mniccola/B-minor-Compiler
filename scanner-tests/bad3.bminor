@@ -1,0 +1,3 @@
+// muli-line strings
+s: string = "hope is\n
+a thing with feathers.";

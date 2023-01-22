@@ -1,0 +1,9 @@
+// different declarations
+main: function void() = {
+    x: integer = 5;
+    x = 7;
+    y: boolean = true;
+    z: auto;
+
+    return 0;
+}

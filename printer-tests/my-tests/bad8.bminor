@@ -1,0 +1,5 @@
+// returning a statement
+main: function string () = {
+
+    return print "hello world\n";
+}

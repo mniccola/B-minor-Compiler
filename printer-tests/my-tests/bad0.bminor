@@ -1,0 +1,5 @@
+// oops forgot the semicolon
+main: function boolean () = {
+    integer x
+    return false;
+}

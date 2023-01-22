@@ -1,0 +1,11 @@
+//print sequence
+main: function void () = {
+    arr: array [5] integer = {1, 2, 3, 4, 5};
+    a: string = "is";
+    c: string = "print";
+    i: integer;
+    for(i = 0; i < 10; i++) {
+        print "this", a, "a", c;
+        arr[i] = i + 2;
+    }
+}

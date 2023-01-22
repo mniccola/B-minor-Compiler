@@ -1,0 +1,10 @@
+// nesting for loops
+ main: function void () = {
+    s: string = "hi\n";
+    i: integer;
+    for(i = 0;i < 10;i++)
+        j: integer;
+        for(j = 0;j < i;j++)
+            if(true)
+                print "no";
+ }

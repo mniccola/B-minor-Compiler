@@ -1,0 +1,7 @@
+// printing an integer
+main: function integer () = {
+
+    print 1, "\n";
+
+    return 0;
+}

@@ -1,0 +1,17 @@
+// func calls with arguments
+
+add: function integer (a: integer, b: integer) = {
+    return a + b;
+}
+
+main: function integer () = {
+    
+    x: integer = 7;
+    y: integer = 15;
+    z: integer = 2;
+
+    w: integer = add(x, y);
+    print w, "\n";
+
+    return 0;
+}

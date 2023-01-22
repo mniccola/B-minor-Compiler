@@ -1,0 +1,2 @@
+// wrong chars
+a: char = 'aa';
